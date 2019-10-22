@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\usepackage[backend=biber]{biblatex}
+% \addbibresource{References.bib} % Specify the bibliography file to include publications
+%\usepackage{apacite}
+\usepackage{fontawesome}
+
+
+\begin{document}
+
+\header{}{Jacob A Cohen}{Computer Science | Cybersecurity | Data Science | Geographic Information Science} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+4300 Hartwick Road 
+Apt. 1246D
+College Park, Maryland
+20740
+---
+(443) 903-0331
+---
+\href{mailto:jacobacohen@outlook.com}{jacobacohen@outlook.com}
+% \href{mailto:jacobac@umd.edu}{jacobac@umd.edu}
+\href{linkedin.com/in/jacobac/ }{\faLinkedinSquare /in/jacobac/}
+% \href{jcohen.dev}{jcohen.dev}
+\href{github.com/jacobacohen}{\faGithub /jacobacohen/}
+---
+Eligible for Top Secret/SCI Clearance
+\section{programming}
+Python, Java, C, R, Ruby, OCaml, Rust, Bash, Latex, \& SQL
+\section{environments}
+Windows, Unix/Linux (Bash, Command Line), MacOS
+
+\section{tools}
+Git, Docker, VIM, JetBrains IDEs, Hadoop, Slurm, Wireshark, Elastic Stack, Geomatica Focus, ArcGIS
+
+\section{coursework}
+%Computer and Network Security, Applied Reverse Engineering, Cryptography, Computer Systems Architecture, Data Structures, Programming Language Technologies and Paradigms, Wireless Communication and Software-Defined Radio, Remote Sensing, GIS
+
+Computer \& Network \hspace*{.2cm} Security
+Applied Reverse Engineering
+Cryptography
+Computer Systems Architecture
+Data Structures
+Programming Language \hspace*{.2cm} Technologies \& Paradigms
+Wireless Communication \& \hspace*{.2cm} Software-Defined Radio
+Quantitative Methods
+Remote Sensing
+GIS
+\section{certifications}
+Cisco CCENT
+CompTIA A+
+% ---
+% Eligible for Top Secret/SCI Clearance
+
+% \section{soft skills}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{work experience}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2016--Present}
+{Army Research Laboratory - Supercomputing Center}
+{Aberdeen Proving Grounds, Maryland}
+{---\\Developed and implemented a variety of data collection components used for system data collection on High Performance Computing (HPC) systems. Solutions developed provide \\ tracking of research application licenses and system/node resource usage data through use of Regular Expressions, Python, MySQL, Facebook’s Osquery, the Elastic Stack, and more.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2016--2020 (Anticipated Graduation: May 2020)}
+{B.S. in Computer Science - Cybersecurity Concentration} %{\normalfont of Commerce}}
+{University of Maryland - College Park}
+{---\\ \emph{Minors:} Advanced Cybersecurity Experience for Students (ACES) \& Geographic Information Science (GIS) \\ Honors College \& Scholars (Science, Technology, Society) Programs \\ \emph{GPA: } 3.55}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+Dwyer M., Hwang J., Shires A., \textbf{Cohen J.}, “Application of Comprehensive Data Analysis for Interactive, Hierarchical Views of HPC Workloads” In \textit{2018 IEEE International Conference on Big Data (Big Data)} (pp. 3585-3589). IEEE. \\ --- \\
+Defined and implemented Extract, Transform, Load (ELT) data collection framework for use on High Performance Computing (HPC) systems. Framework incorporates use of Facebook’s Osquery to harvest system data and the Elastic Stack to ship, transform, store and manipulate data at a HPC scale.
+
+%\bibliographystyle{plain}
+%\bibliography{References}
+% \verb|LinkedIn|: \faLinkedin \quad \par
+% bibentry setup
+
+
+\section{extracurriculars}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entrynobold
+{2019}
+{DNS Prefetching Research Project}
+{\\ \hspace*{.25cm} Collaborated on techniques for web scraping the Alexa top 10,000 websites via Python's \\ \hspace*{.25cm} BeautifulSoup library to get usage statistics on implementation of DNS Prefetching.}
+{}
+
+\entrynobold
+{2017-2019}
+{Bitcamp Hackathon Participant}
+{}
+{}
+
+%------------------------------------------------
+
+\entrynobold
+{2019-Present}
+{Coordinator/Volunteer - Terps 4 Change at A Wider Circle and TerpFarm}
+{}
+{}
+
+\entrynobold
+{2017}
+%{Developed Team Problem Solving and Cybersecurity Skills in Cyber Skylines Competition}
+{Team Challenge Participant at Cyberskylines Competition}
+{}
+{}
+
+\entrynobold
+{2017-Present}
+{UMD International Film Club Co-President}
+{}
+{}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+
+\section{awards}
+
+\begin{entrylist}
+
+%------------------------------------------------
+\entrynobold
+{Fall 16', 18' \& Spring 18', 19'}
+{Dean's List for Computer Science}
+{}
+{}
+
+\entrynobold
+{Fall 2018--Present}
+{DoD SMART Scholarship Awardee}
+{}
+{}
+
+\entrynobold
+{2016--Present}
+{Armed Forces Communications \& Electronics Association Scholarship}
+{}
+{}
+
+%------------------------------------------------
+
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+% Remove page 2 if it comes up
+\clearpage
+\end{document}
